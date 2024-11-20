@@ -15,11 +15,8 @@ import java.util.List;
 import java.util.Properties;
 
 public class WordStore implements Store<Word>, AutoCloseable {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(WordStore.class.getSimpleName());
-
     private final Properties properties;
-
     private Connection connection;
 
     public WordStore(Properties properties) {
@@ -109,5 +106,4 @@ public class WordStore implements Store<Word>, AutoCloseable {
             connection.close();
         }
     }
-
 }

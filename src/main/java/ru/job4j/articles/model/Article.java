@@ -1,9 +1,7 @@
 package ru.job4j.articles.model;
 
 public class Article {
-
     private int id;
-
     private String text;
 
     public Article(int id, String text) {
