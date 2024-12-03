@@ -1,5 +1,7 @@
 ### job4j_articles
 
+![CI GitHubAction](https://github.com/itlazykin/job4j_articles/actions/workflows/maven.yml/badge.svg)
+
 #### Описание
 
 Программа генерирует статьи из слов. Слова и статьи хранятся в базе данных <a href="http://hsqldb.org/">HQLDB</a>, хранимой в виде
